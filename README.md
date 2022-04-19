@@ -1,7 +1,7 @@
 # zanaty-professional-portfolio
 This is my simple portfolio where I have my name, a recent photo, and links to sections about me, my work, and how to contact me
 
-link to website:
+link to website:https://zanatooo.github.io/zanaty-professional-portfolio/
 
 
 
