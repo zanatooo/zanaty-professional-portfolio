@@ -254,7 +254,7 @@ font-size: 30px;
 }  
 
 
-.project2, .project4 {position: relative;
+.project2, .project4, .project5, .project3 {position: relative;
     margin-top: 10px;
     display: inline-flex;
     height: 200px;
@@ -263,7 +263,7 @@ font-size: 30px;
 
 }
 
-.project2 img, .project4 img {
+.project2 img, .project4 img, .project5 img, .project3 img {
     display: inline-flex;
     border: 9px solid #92cccd;
     height: 200px;
@@ -272,19 +272,19 @@ font-size: 30px;
     transition: opacity 0.3s, transform 0.3s;
 }
 
-.project2 a, .project4 a  {
+.project2 a, .project4 a, .project5 a, .project3 a  {
     background-color: #92cccd;
     margin-left: 20px;
     height: 200px;
     width: 440px;
 }
 
-.project2 img:hover, .project4 img:hover  {
+.project2 img:hover, .project4 img:hover, .project5 img:hover, .project3 img:hover  {
     opacity: 100%;
     transition: 0.3s;
 }
 
-.subproject2, .subproject4 {
+.subproject2, .subproject4, .subproject5, .subproject3 {
     position: absolute;
     z-index: 9999;
     top: 75px;
@@ -297,7 +297,7 @@ font-size: 30px;
     
     }
 
-.subproject2 p, .subproject4 p {
+.subproject2 p, .subproject4 p, .subproject5 p, .subproject3 p {
     font-size: 15px;
     font-weight: 500;
     padding-top: 5px;
@@ -305,7 +305,7 @@ font-size: 30px;
     }
 
 
-.project3 {position: relative;
+.project6 {position: relative;
         margin-top: 10px;
         display: inline-flex;
         height: 200px;
@@ -314,7 +314,7 @@ font-size: 30px;
         padding-left: 20px;
     }
     
-.project3 img {
+.project6 img {
         display: inline-flex;
         border: 9px solid #92cccd;
         height: 200px;
@@ -323,19 +323,19 @@ font-size: 30px;
         transition: opacity 0.3s, transform 0.3s;
     }
     
-.project3 a {
+.project6 a {
         background-color: #92cccd;
         margin-left: 20px;
         height: 200px;
         width: 440px;
     }
     
-.project3 img:hover {
+.project6 img:hover {
         opacity: 100%;
         transition: 0.3s;
     }
 
-.subproject3 {
+.subproject6 {
         position: absolute;
         z-index: 9999;
         top: 75px;
@@ -348,7 +348,7 @@ font-size: 30px;
         
         }
     
-.subproject3 p {
+.subproject6 p {
         font-size: 15px;
         font-weight: 500;
         padding-top: 5px;
@@ -425,18 +425,18 @@ position: relative;
 
 @media screen and (max-width: 1192px){
 
-    .project3 {
+    .project6 {
         padding-left: 0px;
     }
 
-    .project2, .project2 img, .project2 a, .project4, .project4 img, .project4 a  {
+    .project2, .project2 img, .project2 a, .project4, .project4 img, .project4 a, .project5, .project5 img, .project5 a, .project3, .project3 img, .project3 a  {
         height: 200px;
         width: 800px;
         width: 100%;
         height: auto;
         position: relative;
     }
-    .project3, .project3 img, .project3 a  {
+    .project6, .project6 img, .project6 a  {
         height: 200px;
         width: 800px;
         width: 100%;
@@ -444,17 +444,17 @@ position: relative;
         position: relative;
     }
 
-    .subproject3  {
+    .subproject6  {
         top: auto;
         bottom: 25px;
         left: 20px;
     }
-    .subproject2, .subproject4{ 
+    .subproject2, .subproject4, .subproject5, .subproject3{ 
         left: 20px;
         top: auto;
         bottom: 25px;
     }
-    .subproject4 h5{
+    .subproject6 h5{
         font-size: 25px;
     }
 
@@ -512,7 +512,7 @@ position: relative;
         flex-shrink: 0 100%;
         
     }
-    .run-buddy {
+    .Horiseon {
         flex: 0 70%;
     }
     .subrunbuddy {
@@ -544,7 +544,7 @@ position: relative;
     }
 
 
-    .run-buddy a , .project2 a , .project3 a, .project4 a {
+    .Horiseon a , .project2 a , .project3 a, .project4 a, .project5 a, .project6 a {
         margin-left: 0;
     }
  
@@ -586,7 +586,7 @@ position: relative;
     margin-bottom: 15px;
 }
 
-.subrunbuddy, .subproject3, .subproject2, .subproject4 {
+.subhoriseon, .subproject2, .subproject3, .subproject4, .subproject5, .subproject6 {
    margin-right: 20px;
    margin-left: -12px;
 }
@@ -660,18 +660,18 @@ position: relative;
     
 
 
-    .subrunbuddy {
+    .subhoriseon {
         
         font-size: 25px;
         padding-top: 0px;
         padding-bottom: 5px;
         
     }
-    .subrunbuddy p {
+    .subhoriseon p {
         font-size: 15px;
     }
 
-    .subproject3 h5, .subproject2 h5, .subproject4 h5, .subproject5 h5, .subproject6 h5 {
+    .subproject2 h5, .subproject3 h5, .subproject4 h5, .subproject5 h5, .subproject6 h5 {
     margin-top: -10px;
     padding-top: 0px;
     margin-left: -10px;
@@ -679,7 +679,7 @@ position: relative;
     font-size: 15px;
 }
 
-.subproject3 p, .subproject2 p, .subproject4 p, .subproject5 p, .subproject6 p {
+.subproject2 p, .subproject3 p, .subproject4 p, .subproject5 p, .subproject6 p {
     font-size: 12px;
     margin-left: -10px;
   }
